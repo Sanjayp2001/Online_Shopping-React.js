@@ -1,0 +1,110 @@
+.news_letter{
+    width: 65%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 120px;
+    margin-bottom: 120px;
+    background-color: rgb(107, 75, 154);
+    gap: 25px;
+    border-radius: 50px;
+}
+
+.news_letter h1{
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.news_letter p{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.news_letter div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 700px;
+    height: 70px;
+    border-radius: 70px;
+    border: 1px solid black;
+}
+
+.news_letter input{
+    width: 500px;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.news_letter div button{
+    width: 210px;
+    height: 70px;
+    border-radius: 70px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+@media (max-width:768px){
+    .news_letter{
+        width: 20%;
+        height: 70vh;
+        margin-bottom: 120px;
+        background-color: rgb(145, 120, 183);
+        border-radius: 15px;
+    }
+
+    .news_letter h1{
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .news_letter p{
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .news_letter div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: white;
+        width: 250px;
+        height: 45px;
+        border-radius: 70px;
+        border: 1px solid black;
+    }
+
+    .news_letter input{
+        width: 100px;
+        margin-left: 20px;
+        border: none;
+        outline: none;
+        font-size: 16px;
+    }
+
+    .news_letter div button{
+        width: 100px;
+        height: 44px;
+        border-radius: 70px;
+        background-color: black;
+        color: white;
+        border: none;
+        outline: none;
+        font-size: 20px;
+        font-weight: 400;
+        margin-right: 2px;
+    
+    }
+    
+}

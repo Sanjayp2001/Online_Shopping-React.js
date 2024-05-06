@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.new_collections_kids{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+    
+}
+
+.new_collections_kids h1{
+    font-size: 50px;
+    font-weight: 600;
+
+}
+
+
+.collections_kids{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.collections_kids img{
+    width: 250px;
+}
+.image1:hover,.image2:hover,.image3:hover,.image4:hover,.image5:hover,.image6:hover,.image7:hover,.image8:hover,.image9:hover,.image10:hover,.image11:hover,.image12:hover{
+transform: scale(1.02);
+}
+
+@media (max-width:768px){
+    .new_collections_kids{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 80px;
+        
+    }
+    
+    .new_collections_kids h1{
+        font-size: 25px;
+        font-weight: 600;
+    
+    }
+    
+    
+    .collections_kids{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .collections_kids img{
+        width: 250px;
+    }
+}
