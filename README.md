@@ -18,7 +18,7 @@ This project is an e-commerce platform designed for online shopping of clothing 
 1. Clone the repository:
 
 
-## Open your browser and navigate to `http://localhost:3000` to view the application.
+## Open your browser and navigate to http://localhost:3000 to view the application.
 
 ## Contributing
 
